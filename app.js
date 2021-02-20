@@ -12,9 +12,11 @@ img.loc = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/';
 img.filename = 'calgary-bridge-2013.jpg';
 if (window.devicePixelRatio >= 2) {
 	var nameParts = img.filename.split('.');
-	img.src = img.loc + nameParts[0]+"-2x"+"."+nameParts[1];
+	#img.src = img.loc + nameParts[0]+"-2x"+"."+nameParts[1];
+	img.src = https://drive.google.com/file/d/127vqARXNQPK_MqaVlqRfFBT4GRaGSPnN/view?usp=sharing
 } else {
-	img.src = img.loc + img.filename;
+	#img.src = img.loc + img.filename;
+	img.src = https://drive.google.com/file/d/127vqARXNQPK_MqaVlqRfFBT4GRaGSPnN/view?usp=sharing
 }
 
 function detectLeftButton(event) {
