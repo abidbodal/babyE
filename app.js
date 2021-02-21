@@ -1,6 +1,6 @@
 var bridge = document.getElementById("bridge"),
 bridgeCanvas = bridge.getContext('2d'),
-brushRadius = (bridge.width / 100) * 5,
+brushRadius = (bridge.width / 100) ,
 img = new Image();
 
 if (brushRadius < 50) { brushRadius = 50}
